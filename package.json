@@ -2,8 +2,8 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev --turbopack",
-    "start": "next start"
+    "dev": "WATCHPACK_POLLING=true next dev --turbopack",
+    "start": "WATCHPACK_POLLING=true next start"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
