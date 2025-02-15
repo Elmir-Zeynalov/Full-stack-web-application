@@ -3,7 +3,8 @@
   "scripts": {
     "build": "next build",
     "dev": "WATCHPACK_POLLING=true next dev --turbopack",
-    "start": "WATCHPACK_POLLING=true next start"
+    "start": "WATCHPACK_POLLING=true next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
@@ -28,6 +29,8 @@
     "@types/bcryptjs": "^2.4.6",
     "@types/node": "22.10.7",
     "@types/react": "19.0.7",
-    "@types/react-dom": "19.0.3"
+    "@types/react-dom": "19.0.3",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.7"
   }
 }
